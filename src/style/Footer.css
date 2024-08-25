@@ -1,0 +1,9 @@
+footer {
+    background-color: hsl(264, 20%, 95%);
+    color: rgb(28, 25, 247);
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  

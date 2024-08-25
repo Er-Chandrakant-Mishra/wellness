@@ -1,0 +1,159 @@
+/* main.css */
+
+/* Other styles... */
+
+.retreat-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .retreat-table th,
+  .retreat-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .retreat-table th {
+    background-color: #f2f2f2;
+  }
+  
+  @media (max-width: 768px) {
+    .retreat-table thead {
+      display: none;
+    }
+  
+    .retreat-table tr {
+      display: block;
+      margin-bottom: 1rem;
+    }
+  
+    .retreat-table td {
+      display: block;
+      text-align: right;
+      border: none;
+      position: relative;
+      padding-left: 50%;
+    }
+  
+    .retreat-table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+
+  /* src/styles/main.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .header {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .filter-bar, .search-bar {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .retreat-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .retreat-table th,
+  .retreat-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .retreat-table th {
+    background-color: #f2f2f2;
+  }
+  
+  @media (max-width: 768px) {
+    .retreat-table thead {
+      display: none;
+    }
+  
+    .retreat-table tr {
+      display: block;
+      margin-bottom: 1rem;
+    }
+  
+    .retreat-table td {
+      display: block;
+      text-align: right;
+      border: none;
+      position: relative;
+      padding-left: 50%;
+    }
+  
+    .retreat-table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  
+  
+  /* main.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+}
+
+.header {
+  background-color: #4CAF50;
+  padding: 1rem;
+  color: white;
+}
+
+.filter-bar, .search-bar {
+  margin: 1rem;
+}
+
+.retreat-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.retreat-item {
+  border: 1px solid #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+}
+
+.retreat-item img {
+  max-width: 100%;
+}
+
+@media (max-width: 600px) {
+  .retreat-item {
+    width: 100%;
+  }
+}
