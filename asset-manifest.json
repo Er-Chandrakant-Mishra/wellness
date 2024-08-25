@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/wellness/static/css/main.99144a7d.css",
+    "main.js": "/wellness/static/js/main.843783c8.js",
+    "static/js/453.51f94d62.chunk.js": "/wellness/static/js/453.51f94d62.chunk.js",
+    "index.html": "/wellness/index.html",
+    "main.99144a7d.css.map": "/wellness/static/css/main.99144a7d.css.map",
+    "main.843783c8.js.map": "/wellness/static/js/main.843783c8.js.map",
+    "453.51f94d62.chunk.js.map": "/wellness/static/js/453.51f94d62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99144a7d.css",
+    "static/js/main.843783c8.js"
+  ]
+}
